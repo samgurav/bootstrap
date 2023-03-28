@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var arr=[];
+        function Additems(){
+     var w1 = document.getElementById('list');
+     var n1=document.getElementById("i1").value;
+     var li = document.createElement("li");
+     arr.push(n1);
+     arr.forEach(element=>{
+         li.innerHTML=element+ '<button onclick="remove(this,index">Delete</button>';
+         list.appendChild(li);
+     });
+ document.getElementById("i1").value=null;
+}
+function remove(element,index){
+    var list= document.getElementById("list");
+    arr.splice(index,1);
+    console.log(arr);
+    element.parentElement.remove();
+}
+     </script>
+</head>
+<body>
+    <h2>Todo List</h2>
+    <label>Add Elements</label><input id="i1" type="text"><label>
+    <input type="button" value="add " onclick="Additems()"><br>
+    <ul id="list">
+
+    </ul>
+
+   
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    
+  <div class="container">
+      <h2>Register Here</h2>
+  
+      <form>
+        <div class="form-group row">
+            <label for="inputText" class="col-sm-2 col-form-label">Username:</label>
+   <div class="col-sm-10">
+            <input type="text" class="form-control" placeholder="Username" pattern="[A-Za-z]" required/>
+        </div>
+    </div>
+        <div class="form-group row">
+            <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+   <div class="col-sm-10">
+            <input type="email" class="form-control" placeholder="Email" required/>
+        </div>
+    </div>
+  
+<div class="form-group row">
+    <label for="inputgender"  class="col-sm-2 col-form-label">Gender</label>
+    <div class="col-sm-10">
+        <label for="male"class="col-sm-2 col-form-label">Male</label>
+        <input type="radio"  name="fav_language" value="Male">
+        <label for="female"class="col-sm-2 col-form-label">Female</label>
+          <input type="radio" name="fav_language" value="Female">
+  </div>
+  </div>
+
+        <div class="form-group row">
+          <label for="inputPassword"  class="col-sm-2 col-form-label">Password</label>
+          <div class="col-sm-10">
+          <input type="password" class="form-control" placeholder="Password" required/>
+      </div>
+      </div>
+      <div class="form-row">
+        <label for="inputPassword"  class="col-sm-2 col-form-label">City:</label>
+
+         <div class="col-sm-10">
+          <input type="text" class="form-control" id="inputCity" required>
+        </div>
+</div>
+<br>
+        <div class="form-group row">
+          <label for="inputState" class="col-sm-2 col-form-label">State</label>
+          <div class="col-sm-10">
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Maharashtra</option>
+            <option>Maharashtra</option>
+            <option>Maharashtra</option>
+            <option>Maharashtra</option>
+          </select>
+        </div>
+    </div>
+      <div class="form-group row">
+        <label for="exampleFormControlFile1"  class="col-sm-2 col-form-label">Upload Here</label>
+        <div class="col-sm-10">
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+      </div>
+      <div class="form-group row">
+        <label for="exampleFormControlTextarea1"  class="col-sm-2 col-form-label">Feedback</label>
+        <div class="col-sm-10">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      </div>
+      <div class="form-group row">
+          <label class="form-check-label">
+           
+              <input type="checkbox"/>Remember Me
+          </label>
+              
+            </div>
+              <button type="submit" class="btn btn-success">Sign In</button>
+              <button type="reset" class="btn btn-success">Reset</button>
+    </form>
+    
+   
+  </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

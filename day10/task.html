@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changecolor(){
+            var array=["green","red"]
+    document.getElementById("para").src=array[count];
+    count++;
+    if(count == 2){
+        count=0
+    }
+}
+    interval=setInterval(change,1000);
+
+        
+    </script>
+    
+</head>
+<body>
+    <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni voluptatem consequatur cupiditate omnis dignissimos laborum assumenda ipsam nisi suscipit odit nobis aspernatur ullam velit, quidem sit alias. Rem, ipsam odit.</p>
+    <button onclick="changecolor">Click Here</button>
+</body>
+</html>

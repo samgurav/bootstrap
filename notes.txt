@@ -1,0 +1,91 @@
+bootstrap: it is the most popular and powerful front end and 
+framework for faster and easier responsive web development. 
+(HTML,CSS,Javascript)
+->It includes HTML and CSS based design templates for creating UI like
+forms,navigations,alerts,modals,carousels etc.
+->It gives us ability to create flexible and responsible web layouts with much less efforts.
+
+> It works on 12 column grid system.
+-> it is an open source.
+=>getting started with bootstrap
+ -> first set the environment for bootstrap.
+ ->either we can download the files or we link CDN(online link)
+ ->CSS files= bootstrap.min.css
+ -> javascript
+    jquery
+    pooper
+    bootstrap
+    eg:
+    home.html
+    <!Doctype html>
+    <html>
+    <head>
+    </head>
+    <body></body>
+
+    </html>
+-->Bootstrap Container
+    > They are required when we using the grid system.
+    >They are basically used to wrap content with some padding.
+    > To align the content horizontally center on the page in case of 
+    fixed with layout.
+->.container
+->.container-fluid , which has 100% width at all breakpoints
+
+->Bootsrap Gripd system.
+it is the fastest and easy way to create responsive web pages.
+-> it have mobile-first flexbox grid system work on 12 column as the device.
+->predefined grid classes for quickly making grid layouts for different
+types of devices like phones, tablets, laptops, desktops etc.
+->.col-*
+->.col-sm-* : small screens(mobiles)
+->col-md-* : medium screens(tablets)
+->col-lg-* : larger device(desktop)
+->col-xl-* :  extra large desktop screens.
+->extra small: <576px
+->small: >=576px
+->medium: >=768px
+->large: >=992px
+->extra : >=1200px
+
+create 2 column layout
+<div class="container">
+<!-- row with two column -->
+<div class="row">
+<div class="col-md-">Left</div>
+<div>Right</div>
+</div>
+</div>
+
+
+->task
+layout
+nav 
+header
+content(divide in 3 parts 4 8 6);
+footer
+
+->task
+Create a layout with table and use list
+
+Day:11
+
+->forms
+->provides 3 types
+1.verticle
+2.horizontally
+3.inline
+
+
+->Task:
+to create a registration page
+registration header
+Uname
+Email
+Gender
+Password
+Hobbies
+City
+Upload
+Feedback
+submit Reset
